@@ -117,3 +117,36 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px !important;
+  }
+
+  .content-heading {
+    font-size: 32px;
+    text-align: center !important;
+    padding: 5px;
+  }
+
+  .h2-heading {
+    font-size: 32px;
+    padding-top: 10px;
+    text-align: center !important;
+  }
+
+  .image-description {
+    text-align: center !important;
+    padding: 5px;
+  }
+
+  .homepage-image {
+    display: none !important;
+  }
+
+  .app-links {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+}
